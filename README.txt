@@ -1,0 +1,5 @@
+1) For code execution , use command : python External_megesort.py
+2) Please make sure the folder containing the code contains nothing more than the file External_megesort.py  each time the code is executed as the same files will be everwritten causing erroneous results.
+3) For case1 when main memory size is large enough to accomodate all the runs , a file named final will consist of the final sorted list.
+4)For case2 when main memory size is not large enough to accomodate all the runs , a file with largest count with an 'a' final will consist of the final sorted list.Since same MM blocks are being used to load and sort again and again , main memory file will be erased after use for loading again.
+5)Since python has no as such pointers so i didnot find any need to append the name of next file to previous file for scans or access.
